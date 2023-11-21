@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.calendar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.weekdays {
+  width: 100%;
+}
+
+.day-container {
+  display: flex;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+}
+.weekday {
+
+  text-align: center;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.dates {
+
+}
+.day-date{
+  width: 50px;
+  padding: auto;
+}
+.date {
+padding: 5px;
+  font-size: 2rem;
+}
+
+.navigation {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+button {
+  margin: 5px;
+  padding: 8px;
+}
+
+.month-year {
+  text-align: center;
+  font-size: 1.2em;
+  padding: 1rem;
+  margin-bottom: 10px;
+}
+
+
+
+.date {
+  position: relative;
+}
+
+.time-options {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.checkbox-container {
+  margin-right: 10px;
+}
+
+
+
+.timezone-select {
+  padding: 1rem;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-right: 8px;
+}
+
+select {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
